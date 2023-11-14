@@ -25,7 +25,7 @@ def main():
 
     password = generate_password(length, use_lowercase, use_uppercase, use_digit, use_special)
     if password:
-        print("Your generated password is: "+password)
+        print("Your generated password is: "+password)  # Here the Random Password printed
 
 if __name__ == "__main__":
     main()
